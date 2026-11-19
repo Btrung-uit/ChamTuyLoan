@@ -1,0 +1,14 @@
+/node_modules/
+/.next/
+/out/
+/next-env.d.ts
+*.tsbuildinfo
+.env*
+!.env.example
+npm-debug.log*
+
+# Hồ sơ nội bộ và tư liệu chưa duyệt công bố
+/docs/
+/agent/
+/assets-working/
+/AGENTS.md
