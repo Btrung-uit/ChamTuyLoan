@@ -1,6 +1,6 @@
 # Chạm Túy Loan
 
-Website giới thiệu di sản văn hóa làng cổ Túy Loan, Đà Nẵng. Bản hiện tại có một trang kiểm thử triển khai.
+Website kể chuyện di sản làng cổ Túy Loan, Đà Nẵng qua hai nhánh Bánh tráng và Đình làng. Thư viện có bộ lọc, ảnh phóng to và ghi nguồn từng ảnh.
 
 ## Chạy local
 
@@ -12,6 +12,10 @@ npm run dev
 ```
 
 Mở [localhost:3000](http://localhost:3000).
+
+## Nội dung và hình ảnh
+
+Sửa nội dung và liên kết nguồn ở `src/app/stories.ts`. Khi thêm ảnh đã có quyền công bố, đặt bản WebP tối ưu trong `public/di-san/` và đăng ký kích thước, alt text, caption, nguồn cùng ảnh thu nhỏ trong `src/app/media-manifest.ts`. Ghi rõ ảnh minh họa AI và ảnh thực địa trong manifest.
 
 ## Kiểm thử và triển khai
 
